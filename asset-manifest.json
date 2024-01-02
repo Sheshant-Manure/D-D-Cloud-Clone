@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/D-D-Cloud-Clone/static/css/main.bd4395ef.css",
+    "main.js": "/D-D-Cloud-Clone/static/js/main.b6cba322.js",
+    "index.html": "/D-D-Cloud-Clone/index.html",
+    "main.bd4395ef.css.map": "/D-D-Cloud-Clone/static/css/main.bd4395ef.css.map",
+    "main.b6cba322.js.map": "/D-D-Cloud-Clone/static/js/main.b6cba322.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd4395ef.css",
+    "static/js/main.b6cba322.js"
+  ]
+}
