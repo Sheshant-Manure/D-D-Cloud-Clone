@@ -29,6 +29,7 @@
 
 .topbar ul li {
   list-style: none;
+  font-size: 14px;
 }
 
 .socials {
@@ -40,6 +41,10 @@
   position: absolute;
   right: 0px;
   color: white;
+}
+
+.socials ul li{
+  cursor: pointer;
 }
 
 @media (max-width: 980px) {

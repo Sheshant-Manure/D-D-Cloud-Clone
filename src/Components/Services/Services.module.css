@@ -1,0 +1,71 @@
+.services {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services span {
+    color: var(--hover-font-color);
+    font-size: 22px;
+}
+
+.services span::before {
+    content: '// ';
+    color: currentColor;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Orbitron:wght@500&family=Plus+Jakarta+Sans:wght@800&family=Preahvihear&family=Roboto:wght@300&display=swap');
+.services h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.card {
+    border: 1px solid #C5C5C5;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 370px;
+    color: rgb(63, 63, 63);
+}
+
+.card img {
+    width: 25%;
+    margin-top: 50px; 
+}
+
+.servicesBtn {
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+
+.card h4 {
+    text-align: center;
+    font-weight: 200;
+    line-height: 25px;
+}
+
+.card h4 a{
+    color: currentColor;
+    font-weight: 700;
+}

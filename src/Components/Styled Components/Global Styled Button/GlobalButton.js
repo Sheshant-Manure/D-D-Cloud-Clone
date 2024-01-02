@@ -10,7 +10,7 @@ const GlobalButton = styled.button`
 
     &:hover {
       cursor: pointer;
-      background-color: var(--secondary-color);
+      background-image: linear-gradient(to right, var(--secondary-color), var(--hover-font-color));
       color: white;
     }
 
